@@ -1,0 +1,96 @@
+{
+    "name": "PlayerControlls",
+    "maps": [
+        {
+            "name": "BasicMovement",
+            "id": "067c13fc-d333-48e6-ba44-e1b00aa3ded1",
+            "actions": [
+                {
+                    "name": "MovementVector",
+                    "type": "Value",
+                    "id": "e6318668-0d97-4bd0-ac00-7a648015b56a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Hold(duration=0.1)"
+                },
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "86e5931f-07da-4336-ae42-0510df68be17",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "970ba905-31ca-4184-87bb-5738e8f313b3",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "MovementVector",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "fd0e3208-0842-4c98-bd6c-0caef376782b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "MovementVector",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "493e0226-a7eb-473f-a311-573fcc4c0a1e",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "MovementVector",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "a9b15020-4771-4932-b0f4-72c0072f217f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "MovementVector",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "775bc2a3-7801-43b2-a0c9-c44c0da3f195",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "MovementVector",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "bdb3e792-e3b4-4a3a-99c1-c9e684a08d38",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
