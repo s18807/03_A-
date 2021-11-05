@@ -53,10 +53,16 @@
     <UnityVersion>2020.3.21f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\GridField.cs" />
     <Compile Include="Assets\InputManager.cs" />
+    <Compile Include="Assets\Seeker.cs" />
+    <Compile Include="Assets\Grid.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\PlayerControlls.cs" />
+    <Compile Include="Assets\Utilities.cs" />
     <Compile Include="Assets\GridManager.cs" />
+    <Compile Include="Assets\GameGrid.cs" />
+    <Compile Include="Assets\DaggerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

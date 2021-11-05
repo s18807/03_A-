@@ -31,7 +31,7 @@ public class InputManager : MonoBehaviour
     }
     private void isAttack()
     {
-        isAttacking = _inputs.BasicMovement.Attack.ReadValue<bool>();
+        isAttacking = _inputs.BasicMovement.Attack.ReadValue<float>()==1;
     }
 
 
